@@ -3,7 +3,7 @@ title: Hexo+github Action搭建博客
 date: 2024-11-23 13:39:15
 tags:
 ---
-# Hexo+github Action搭建博客
+
 ### 目的
 使用hexo搭建自己的博客，并且使用github的action实现线上写文档直接推送至github.io  
 `前置条件`：
