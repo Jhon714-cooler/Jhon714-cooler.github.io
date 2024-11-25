@@ -9,7 +9,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    #权限
+    permissions:
+      pages: write
+      id-token: write
+      contents: write
     steps:
       # 获取博客源码和主题
       - name: Checkout
