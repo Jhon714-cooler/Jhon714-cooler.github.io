@@ -1,1 +1,6 @@
-/node_modules/
+node_modules/
+public/
+db.json
+gh-pages
+gh-pages.pub
+.deploy*/
