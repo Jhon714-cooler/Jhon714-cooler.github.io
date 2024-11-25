@@ -49,6 +49,8 @@ jobs:
       # 安装依赖
       - name: Install Dependencies
         run: npm install
+      - name: Build
+        run: npm run build
       # #生成页面
       # name:  Build
       #   run: npx hexo generate
