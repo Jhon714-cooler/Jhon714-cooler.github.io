@@ -14,8 +14,7 @@ jobs:
       # 获取博客源码和主题
       - name: Checkout
         uses: actions/checkout@v2
-        with:
-          path:./write_place
+
 
       - name: Checkout theme repo
         uses: actions/checkout@v2
